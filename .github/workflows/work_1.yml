@@ -1,0 +1,8 @@
+name: Work 1 JP
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-lastest
+    steps:
+    - name: Print something
+      run: echo "Hola bola"
