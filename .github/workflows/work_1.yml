@@ -1,8 +1,12 @@
-name: Work 1 JP
-on: [push]
+name: Tarea
+on:
+  push:
+    branches:
+      - test_1
 jobs:
-  build:
+  print_messages:
     runs-on: ubuntu-latest
     steps:
-    - name: Print something
-      run: echo "Hola bola"
+        run: echo "Impresión 1"
+        run: echo "Impresión 2"
+        run: echo "Impresión 3"
