@@ -7,6 +7,9 @@ jobs:
   print_messages:
     runs-on: ubuntu-latest
     steps:
+      - name: Impresión 1
         run: echo "Impresión 1"
+      - name: Impresión 2
         run: echo "Impresión 2"
+      - name: Impresión 3
         run: echo "Impresión 3"
